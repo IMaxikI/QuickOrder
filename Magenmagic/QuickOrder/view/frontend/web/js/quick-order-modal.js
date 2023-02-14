@@ -58,7 +58,8 @@ define([
             formPopup.trigger('reset');
         });
 
-        $(document).on('click', '.quick-order-btn', function () {
+        $(document).on('click', '.quick-order-btn', function (event) {
+            event.target.blur();
             modalPopup.modal('openModal');
 
             var prodName = $(this).data('product-name');

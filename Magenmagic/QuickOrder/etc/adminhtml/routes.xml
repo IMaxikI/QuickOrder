@@ -2,7 +2,7 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route id="sales_quick_grid" frontName="sales_quick_grid">
+        <route id="sales_quick" frontName="sales_quick">
             <module name="Magenmagic_QuickOrder"/>
         </route>
     </router>
